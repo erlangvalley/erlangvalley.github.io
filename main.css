@@ -1,0 +1,28 @@
+html { font-size: 1.125em; }
+
+body {
+	color: #212529;
+	font-family: "Crete Round", serif;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.45;
+	margin: 7.07em 1.414em;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.998em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: 1.414em 0 0.5em;
+	margin-top: 0;
+}
+
+p { margin-bottom: 1.3em; }
+
+#page {
+	max-width: 35.35em;
+	margin: 0 auto;
+}
