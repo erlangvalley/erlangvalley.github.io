@@ -1,0 +1,213 @@
+{
+   "users":[
+      {
+         "name":"",
+         "address":"Regeringsgatan 28",
+         "zip":11153,
+         "coordinates":{
+            "lat":59.3316996,
+            "lng":18.068830100000014
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"Campanja [24]7",
+         "address":"Sveavägen 17",
+         "zip":11157,
+         "coordinates":{
+            "lat":59.3345745,
+            "lng":18.063559800000007
+         },
+         "type":2,
+         "summary":"Optimising Customer Acquisition"
+      },
+      {
+         "name":"CloudAMQP",
+         "address":"Sveavägen 98",
+         "zip":11350,
+         "coordinates":{
+            "lat":59.3424917,
+            "lng":18.057476800000018
+         },
+         "type":1,
+         "summary":"RabbitMQ as a Service"
+      },
+      {
+         "name":"",
+         "address":"Sveavägen 24-26",
+         "zip":11157,
+         "coordinates":{
+            "lat":59.3352708,
+            "lng":18.0644049
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"Erlang Solutions",
+         "address":"Saltmätargatan 5",
+         "zip":11359,
+         "coordinates":{
+            "lat":59.3393613,
+            "lng":18.058559599999967
+         },
+         "type":2,
+         "summary":"Bigger, faster, longer!"
+      },
+      {
+         "name":"HappyTail",
+         "address":"Hornsgatan 146B 6tr",
+         "zip":11728,
+         "coordinates":{
+            "lat":59.3161374,
+            "lng":18.039153899999974
+         },
+         "type":2,
+         "summary":"Connecting Dog Lovers Locally"
+      },
+      {
+         "name":"Happi Studios",
+         "address":"Rosenlundsgatan 40",
+         "zip":11853,
+         "coordinates":{
+            "lat":59.3140084,
+            "lng":18.05689559999996
+         },
+         "type":2,
+         "summary":"Online Strategy Games"
+      },
+      {
+         "name":"",
+         "address":"Drottninggatan 104",
+         "zip":11160,
+         "coordinates":{
+            "lat":59.3383773,
+            "lng":18.057057100000065
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Wallingatan 2",
+         "zip":11160,
+         "coordinates":{
+            "lat":59.3376227,
+            "lng":18.05863690000001
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"Kivra",
+         "address":"Drottninggatan 26",
+         "zip":11151,
+         "coordinates":{
+            "lat":59.3306245,
+            "lng":18.064836300000024
+         },
+         "type":2,
+         "summary":"Secure mailbox"
+      },
+      {
+         "name":"Klarna",
+         "address":"Sveavägen 46",
+         "zip":11134,
+         "coordinates":{
+            "lat":59.33722479999999,
+            "lng":18.061914300000012
+         },
+         "type":2,
+         "summary":"Smoooth Payments"
+      },
+      {
+         "name":"Mobile Arts",
+         "address":"Tjärhovsgatan 56",
+         "zip":11628,
+         "coordinates":{
+            "lat":59.3160412,
+            "lng":18.08516039999995
+         },
+         "type":2,
+         "summary":"Mobile Location Solutions"
+      },
+      {
+         "name":"",
+         "address":"Linnégatan 87 A",
+         "zip":11523,
+         "coordinates":{
+            "lat":59.3346494,
+            "lng":18.096356600000036
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Narvavägen 27",
+         "zip":11460,
+         "coordinates":{
+            "lat":59.33606280000001,
+            "lng":18.09053610000001
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Stadsgårdsleden",
+         "zip":11645,
+         "coordinates":{
+            "lat":59.31930449999999,
+            "lng":18.077009599999997
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Sveavägen 25",
+         "zip":11134,
+         "coordinates":{
+            "lat":59.3360111,
+            "lng":18.062753799999996
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Söder Mälarstrand 27",
+         "zip":11825,
+         "coordinates":{
+            "lat":59.32071899999999,
+            "lng":18.05446660000007
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Ferkens Gränd 3",
+         "zip":11130,
+         "coordinates":{
+            "lat":59.32418519999999,
+            "lng":18.07433190000006
+         },
+         "type":0,
+         "summary":""
+      },
+      {
+         "name":"",
+         "address":"Holländargatan 20",
+         "zip":11160,
+         "coordinates":{
+            "lat":59.3388437,
+            "lng":18.058390400000008
+         },
+         "type":0,
+         "summary":""
+      }
+   ]
+}

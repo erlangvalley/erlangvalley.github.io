@@ -1,17 +1,466 @@
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="description" content="Invented at Ericsson, the amazing Erlang technology was born in Stockholm; its vibrant heartland is Erlang Valley.">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<title>Erlang Valley</title>
-		<link rel="stylesheet" href="main.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-		<script>WebFont.load({google: {classes: false, events: false, families: ["Crete Round:400"], text: ",.ABEMSVacbedgfihkmlonpsrutwvyz"}});</script>
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+		<style>
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			#contact {
+				font-size: 12px;
+				padding-top: 10px;
+			}
+
+			#info {
+				font-family: "Work Sans", sans-serif;
+				font-size: 14px;
+			}
+
+			#legend {
+				background: #fff;
+				border: 1px solid #adb5bd;
+				color: #000;
+				font-family: "Work Sans", sans-serif;
+				font-size: 14px;
+				line-height: 1.45;
+				margin: 10px;
+				max-width: 285px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-top: 10px;
+			}
+
+			#legend div {
+				font-size: 16px;
+				font-variant: small-caps;
+				font-weight: bold;
+				padding-top: 10px;
+			}
+
+			#legend div h3 {
+				margin-top: 0;
+			}
+
+			#legend div img {
+				max-width: 16px;
+				padding-right: 10px;
+				vertical-align: middle;
+			}
+
+			#logo {
+				padding: 10px;
+				padding-top: 10px;
+			}
+
+			#map {
+				height: 100%;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="page">
-			<h1>Erlang Valley</h1>
-			<p>Many people are doing it. More than you know. Maybe even your neighbours. So many companies are using the amazing Erlang ecosystem invented at Ericsson in Sweden.</p>
-			<p> Stockholm is the birthplace of the Erlang technology, and its vibrant heartland is Erlang Valley.</p>
-			<p>Brought to you soon by Erlang Solutions AB.</p>
+		<div id="logo"></div>
+		<div id="map"></div>
+		<div id="legend">
+			<p>Invented at Ericsson, the amazing Erlang technology was born in Stockholm; its vibrant heartland is Erlang Valley.</p>
 		</div>
+		<script>
+			function initMap() {
+				var styledMapType = new google.maps.StyledMapType(
+					[
+						{
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#ebe3cd"
+								}
+							]
+						},
+						{
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#523735"
+								}
+							]
+						},
+						{
+							"elementType": "labels.text.stroke",
+							"stylers": [
+								{
+									"color": "#f5f1e6"
+								}
+							]
+						},
+						{
+							"featureType": "administrative",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#c9b2a6"
+								}
+							]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#dcd2be"
+								}
+							]
+						},
+						{
+							"featureType": "administrative.land_parcel",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#ae9e90"
+								}
+							]
+						},
+						{
+							"featureType": "landscape.natural",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#dfd2ae"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#dfd2ae"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#93817c"
+								}
+							]
+						},
+						{
+							"featureType": "poi.attraction",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "poi.medical",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "geometry.fill",
+							"stylers": [
+								{
+									"color": "#a5b076"
+								}
+							]
+						},
+						{
+							"featureType": "poi.park",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#447530"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#f5f1e6"
+								}
+							]
+						},
+						{
+							"featureType": "road.arterial",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#fdfcf8"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#f8c967"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#e9bc62"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway.controlled_access",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#e98d58"
+								}
+							]
+						},
+						{
+							"featureType": "road.highway.controlled_access",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#db8555"
+								}
+							]
+						},
+						{
+							"featureType": "road.local",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#806b63"
+								}
+							]
+						},
+						{
+							"featureType": "transit.line",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#dfd2ae"
+								}
+							]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#8f7d77"
+								}
+							]
+						},
+						{
+							"featureType": "transit.line",
+							"elementType": "labels.text.stroke",
+							"stylers": [
+								{
+									"color": "#ebe3cd"
+								}
+							]
+						},
+						{
+							"featureType": "transit.station",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "transit.station",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#dfd2ae"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "geometry.fill",
+							"stylers": [
+								{
+									"color": "#b9d3c2"
+								}
+							]
+						},
+						{
+							"featureType": "water",
+							"elementType": "labels.text.fill",
+							"stylers": [
+								{
+									"color": "#92998d"
+								}
+							]
+						}
+					]
+				);
+
+				var map = new google.maps.Map(document.getElementById("map"), {
+					backgroundColor: "#f8f9fa",
+					center: {lat: 59.3250977, lng: 18.0617107},
+					mapTypeControl: false,
+					mapTypeIds: ["styled_map"],
+					streetViewControl: false,
+					minZoom: 13,
+					zoom: 13,
+					zoomControlOptions: {
+						position: google.maps.ControlPosition.RIGHT_BOTTOM
+					}
+				});
+
+				map.mapTypes.set("styled_map", styledMapType);
+				map.setMapTypeId("styled_map");
+
+				function description(name, summary) {
+					return "<div id=\"info\"><h3>" + name + "</h3><p>" + summary + "</p>" ;
+				}
+
+				var users = [];
+				var markers = [];
+				var xhr = new XMLHttpRequest();
+				xhr.open("GET", "/users.json", true);
+				xhr.onload = function (e) {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							users = JSON.parse(xhr.responseText).users;
+
+							var lastInfoWindow;
+							markers = users.map(function(user, i) {
+								var infoWindow = new google.maps.InfoWindow({content: description(user.name, user.summary)});
+								icon = "";
+								switch (user.type) {
+									case 0:
+										icon = "marker_empty";
+										break;
+									case 1:
+										icon = "marker_half";
+										break;
+									case 2:
+										icon = "marker_full";
+										break;
+								}
+								var marker =  new google.maps.Marker({
+									icon: "icons/" + icon + ".svg",
+									position: user.coordinates
+								});
+								if ((user.type === 1) || (user.type === 2)) {
+									marker.addListener("click", function() {
+										if (lastInfoWindow) {
+											lastInfoWindow.close();
+										}
+										lastInfoWindow = infoWindow;
+										infoWindow.open(map, marker);
+									});
+								} else {
+									marker.clickable = false;
+								}
+								return marker;
+							});
+							var markerCluster = new MarkerClusterer(map, markers,
+								{styles: [
+									{width:40, height:40, url:"icons/cluster_small.svg", textColor: "#343a40"},
+									{width:40, height:40, url:"icons/cluster_medium.svg", textColor: "#343a40"},
+									{width:40, height:40, url:"icons/cluster_big.svg", textColor: "#343a40"}
+								]}
+							)
+						} else {
+							console.error(xhr.statusText);
+						}
+					}
+				};
+				xhr.onerror = function(e) {
+					console.error(xhr.statusText);
+				};
+				xhr.send(null);
+
+				var symbols = {
+					erlang_user: {
+						icon: "marker_full",
+						name: "developing on the beam"
+					},
+					erlang_product_user: {
+						icon: "marker_half",
+						name: "using erlang products"
+					},
+					anonymous_user: {
+						icon: "marker_empty",
+						name: "anonymous user"
+					}
+				};
+
+				var legend = document.getElementById("legend");
+				for (var key in symbols) {
+					var type = symbols[key];
+					var name = type.name;
+					var icon = type.icon;
+					var div = document.createElement("div");
+					div.innerHTML = "<img src=icons/" + icon + ".svg>" + name;
+					legend.appendChild(div);
+				}
+				var mail = document.createElement("p");
+				mail.id = "contact";
+				mail.innerHTML = "<a href=\"mailto:se.info@erlang-solutions.com\">Contact us.</a>";
+				legend.appendChild(mail);
+
+				map.controls[google.maps.ControlPosition.LEFT_BOTTOM].push(legend);
+
+				var logo = document.getElementById("logo");
+				var div = document.createElement("div");
+				div.innerHTML = "<img src=icons/esl_logo.svg>";
+				logo.appendChild(div);
+
+				map.controls[google.maps.ControlPosition.LEFT_TOP].push(logo);
+
+				var southWest = new google.maps.LatLng(59.3114389,18.0067645);
+				var northEast = new google.maps.LatLng(59.3531664,18.0925932);
+				var bounds = new google.maps.LatLngBounds(southWest, northEast);
+				var prevCenter = map.getCenter();
+				google.maps.event.addListener(map, "center_changed", function() {
+					if (bounds.contains(map.getCenter())) {
+						prevCenter = map.getCenter();
+						return;
+					}
+					map.setCenter(prevCenter);
+				});
+			}
+		</script>
+		<script src="markerclusterer.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-n2XLDUnn03YKzOU-M40fuK3p_n7ej0I&callback=initMap"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-91227471-1', 'auto');
+			ga('send', 'pageview');
+	</script>
 	</body>
 </html>
