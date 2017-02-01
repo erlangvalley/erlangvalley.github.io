@@ -1,7 +1,7 @@
 {
    "users":[
       {
-         "name":"",
+         "name":"BT",
          "address":"Regeringsgatan 28",
          "zip":11153,
          "coordinates":{
@@ -34,7 +34,7 @@
          "summary":"RabbitMQ as a Service"
       },
       {
-         "name":"",
+         "name":"88",
          "address":"Sveavägen 24-26",
          "zip":11157,
          "coordinates":{
@@ -78,7 +78,7 @@
          "summary":"Online Strategy Games"
       },
       {
-         "name":"",
+         "name":"IPL",
          "address":"Drottninggatan 104",
          "zip":11160,
          "coordinates":{
@@ -89,7 +89,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"KS",
          "address":"Wallingatan 2",
          "zip":11160,
          "coordinates":{
@@ -133,7 +133,7 @@
          "summary":"Mobile Location Solutions"
       },
       {
-         "name":"",
+         "name":"QB",
          "address":"Linnégatan 87 A",
          "zip":11523,
          "coordinates":{
@@ -144,7 +144,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"CQ",
          "address":"Narvavägen 27",
          "zip":11460,
          "coordinates":{
@@ -155,7 +155,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"SN",
          "address":"Stadsgårdsleden",
          "zip":11645,
          "coordinates":{
@@ -166,7 +166,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"TF",
          "address":"Sveavägen 25",
          "zip":11134,
          "coordinates":{
@@ -177,7 +177,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"TS",
          "address":"Söder Mälarstrand 27",
          "zip":11825,
          "coordinates":{
@@ -188,7 +188,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"3",
          "address":"Ferkens Gränd 3",
          "zip":11130,
          "coordinates":{
@@ -199,7 +199,7 @@
          "summary":""
       },
       {
-         "name":"",
+         "name":"Z",
          "address":"Holländargatan 20",
          "zip":11160,
          "coordinates":{
