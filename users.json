@@ -166,15 +166,15 @@
          "summary":""
       },
       {
-         "name":"TF",
+         "name":"Cisco/Tail-f",
          "address":"Sveavägen 25",
          "zip":11134,
          "coordinates":{
             "lat":59.3360111,
             "lng":18.062753799999996
          },
-         "type":0,
-         "summary":""
+         "type":2,
+         "summary":"Go Configure"
       },
       {
          "name":"TS",
