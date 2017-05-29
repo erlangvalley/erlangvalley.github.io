@@ -144,7 +144,7 @@
          "summary":""
       },
       {
-         "name":"CQ",
+         "name":"SQ",
          "address":"Narvavägen 27",
          "zip":11460,
          "coordinates":{
@@ -153,6 +153,17 @@
          },
          "type":0,
          "summary":""
+      },
+      {
+         "name":"Sustainable Innovation",
+         "address":"Barnhusgatan 3",
+         "zip":11123,
+         "coordinates":{
+            "lat":59.33635879999999,
+            "lng":18.057813200000055
+         },
+         "type":1,
+         "summary":"Sustainable Business"
       },
       {
          "name":"SN",
