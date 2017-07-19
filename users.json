@@ -1,6 +1,17 @@
 {
    "users":[
       {
+         "name":"AS",
+         "address":"Bondegatan 30",
+         "zip":11633,
+         "coordinates":{
+            "lat":59.31299240000001,
+            "lng":18.080241500000056
+         },
+         "type":0,
+         "summary":""
+      },
+      {
          "name":"BT",
          "address":"Regeringsgatan 28",
          "zip":11153,
