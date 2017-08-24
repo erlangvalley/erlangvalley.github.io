@@ -178,14 +178,14 @@
       },
       {
          "name":"SN",
-         "address":"Stadsgårdsleden",
+         "address":"Stadsgården 10",
          "zip":11645,
          "coordinates":{
             "lat":59.31930449999999,
             "lng":18.077009599999997
          },
-         "type":0,
-         "summary":""
+         "type":2,
+         "summary":"World class, revenue-generating products"
       },
       {
          "name":"Cisco/Tail-f",
