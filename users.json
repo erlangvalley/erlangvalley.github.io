@@ -133,6 +133,16 @@
          "summary":"Smoooth Payments"
       },
       {
+         "name":"LV",
+         "address":"Sveavägen 59",
+         "zip":11359,
+         "coordinates":{
+            "lat":59.3407317,
+            "lng":18.05828710000003
+         },
+         "type":0,
+         "summary":""
+      },{
          "name":"Mobile Arts",
          "address":"Tjärhovsgatan 56",
          "zip":11628,
@@ -150,17 +160,6 @@
          "coordinates":{
             "lat":59.3346494,
             "lng":18.096356600000036
-         },
-         "type":0,
-         "summary":""
-      },
-      {
-         "name":"SQ",
-         "address":"Narvavägen 27",
-         "zip":11460,
-         "coordinates":{
-            "lat":59.33606280000001,
-            "lng":18.09053610000001
          },
          "type":0,
          "summary":""
