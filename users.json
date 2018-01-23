@@ -133,15 +133,15 @@
          "summary":"Smoooth Payments"
       },
       {
-         "name":"LV",
+         "name":"LeoVegas",
          "address":"Sveavägen 59",
          "zip":11359,
          "coordinates":{
             "lat":59.3407317,
             "lng":18.05828710000003
          },
-         "type":0,
-         "summary":""
+         "type":1,
+         "summary":"Leading the Way into the Mobile Future"
       },{
          "name":"Mobile Arts",
          "address":"Tjärhovsgatan 56",
