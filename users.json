@@ -79,11 +79,11 @@
       },
       {
          "name":"Happi Studios",
-         "address":"Rosenlundsgatan 40",
+         "address":"Sankt Paulsgatan 22A",
          "zip":11853,
          "coordinates":{
-            "lat":59.3140084,
-            "lng":18.05689559999996
+            "lat":59.3179398,
+            "lng":18.065041000000065
          },
          "type":2,
          "summary":"Online Strategy Games"
@@ -112,11 +112,11 @@
       },
       {
          "name":"Kivra",
-         "address":"Drottninggatan 26",
-         "zip":11151,
+         "address":"Vattugatan 17",
+         "zip":11152,
          "coordinates":{
-            "lat":59.3306245,
-            "lng":18.064836300000024
+            "lat":59.3142026,
+            "lng":18.079172099999997
          },
          "type":2,
          "summary":"Secure mailbox"
