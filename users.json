@@ -57,11 +57,11 @@
       },
       {
          "name":"Erlang Solutions",
-         "address":"Saltmätargatan 5",
-         "zip":11359,
+         "address":"Blekholmstorget 30F",
+         "zip":11164,
          "coordinates":{
-            "lat":59.3393613,
-            "lng":18.058559599999967
+            "lat":59.33145,
+            "lng":18.052392499999996
          },
          "type":2,
          "summary":"Bigger, faster, longer!"
