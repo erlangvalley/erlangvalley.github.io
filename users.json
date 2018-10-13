@@ -79,11 +79,11 @@
       },
       {
          "name":"Happi Studios",
-         "address":"Sankt Paulsgatan 22A",
-         "zip":11853,
+         "address":"Munkbrogatan 2",
+         "zip":11127,
          "coordinates":{
-            "lat":59.3179398,
-            "lng":18.065041000000065
+            "lat":59.31412410000001,
+            "lng":18.079012799999997
          },
          "type":2,
          "summary":"Online Strategy Games"
@@ -204,28 +204,6 @@
          "coordinates":{
             "lat":59.32071899999999,
             "lng":18.05446660000007
-         },
-         "type":0,
-         "summary":""
-      },
-      {
-         "name":"3",
-         "address":"Ferkens Gränd 3",
-         "zip":11130,
-         "coordinates":{
-            "lat":59.32418519999999,
-            "lng":18.07433190000006
-         },
-         "type":0,
-         "summary":""
-      },
-      {
-         "name":"Z",
-         "address":"Holländargatan 20",
-         "zip":11160,
-         "coordinates":{
-            "lat":59.3388437,
-            "lng":18.058390400000008
          },
          "type":0,
          "summary":""
